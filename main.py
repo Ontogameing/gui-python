@@ -12,7 +12,7 @@ todoTaskString = StringVar()
 def addTask():
     todo = Checkbutton(root, text = todoTaskString.get(), bg = HOMEBGCOLOR, fg = "gray")
     removeTodo = Button(root, text = "X", bg = HOMEBGCOLOR, fg = "white", command = removeTask)
-    todo.pack(); removeTodo.pack()
+    todo.pack(); removeTodo.pack();
 
 def removeTask():
     pass
